@@ -27,6 +27,10 @@ class Artist
   end #def all
 
   def self.find_or_create_by_name(name)
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 4d05ff27214670a7ad129a9c760a99edfcd2c70d
     if self.all.find {|artist| artist.name == name}
       self.all.find {|artist| artist.name == name}
     else
